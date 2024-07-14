@@ -1,0 +1,50 @@
+.app_navbar{
+    display: flex;
+    flex-direction:row ;
+    background-color: #101828; 
+    align-items: center; 
+    justify-content:space-between ;
+    padding: 0 1rem; 
+
+}
+.app_navbar a{
+    text-decoration: none;
+}
+.app_header{
+    font-size: 24px;
+    color: antiquewhite;
+}
+
+.app_navbar .nav_list{
+    display: flex;
+    list-style: none;
+}
+
+.app_navbar .nav_list .item{
+    padding: 1rem;
+    margin-right: 1rem;
+}
+
+.app_navbar .nav_list .item a{
+    font-size: 16px;
+    color: antiquewhite;
+    border-radius: 5px; 
+}
+
+.app_navbar .nav_list .item:hover{
+    background-color: dimgray;
+
+}
+.app_navbar .nav_list .item.active{
+    background-color: dimgray;
+}
+.exit {
+    background: none;
+    border: none;
+    color: antiquewhite;
+    font-size: 0.9em;
+    cursor: pointer;
+    padding: 10px 20px;
+    font-size:x-small ;
+    margin: auto;
+  }

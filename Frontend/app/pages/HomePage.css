@@ -1,0 +1,200 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #B0C4DE;
+    color: #333;
+    line-height: 1.6;
+    overflow-y: auto;
+}
+.home-page {
+    padding: 20px;
+ 
+}
+.header{
+    margin-top: 20px;
+}
+
+/* Search Bar */
+
+.search-bar {
+    margin-bottom: 20px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    
+}
+.search-bar .search-input {
+    display: flex; 
+}
+  
+.search-bar input[type="text"] {
+    padding: 8px;
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 10px;
+}
+  
+.search-bar button {
+    padding: 8px 16px;
+    font-size:medium;
+    background-color: #3f61a5;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+  
+.search-bar button:hover {
+    background-color: #101828;
+}
+  
+  /* Filter Bar */
+
+.filter-bar {
+    margin-left: auto; /* Filtreleme çubuğunu sağa yasla */
+    margin-bottom: 20px;
+    
+    
+}
+
+.filter-bar select {
+  padding: 12px;
+  width: 150px;
+  font-size:medium;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  cursor: pointer;
+  }
+  
+  
+.post-container {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(300px, 1fr));
+    gap: 20px;
+    justify-content: center;
+    padding: 100px;
+    /*
+    flex-direction: column;
+    max-width: 50%;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    */
+    
+    
+}
+  
+.post {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+  
+.post-header {
+    padding: 10px;
+    position: relative;
+    
+
+}
+.delete-button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: transparent;
+    border: none;
+    color: red;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.delete-button:hover {
+    color: darkred;
+}
+
+.user-info {
+    padding: 10px;
+    font-weight: bold; 
+    float: left;
+    margin-right: 10px;
+    clear: both;
+    align-items: baseline;
+}
+
+.lesson-name {
+    padding: 5px;
+    border-bottom: 1px solid #ddd;
+    font-style: italic; 
+    float:left;
+    clear: both;
+    align-items: baseline;
+
+}
+  
+.post-image img {
+    width: 100%;
+    height: auto;
+}
+.post img {
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+.post-footer {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+  
+.like-icon,
+.comment-icon {
+    font-size: 24px;
+    margin-right: 10px;
+}
+  
+.likes,
+.comments {
+    margin-right: 20px;
+    color: #777;
+}
+
+.description {
+    margin-top: 5px;
+    margin-left: 5px;
+    padding: 10px;
+    
+}
+.info-text{
+    color:#777;
+}
+
+.image-style {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  .iframe-style {
+    width: 100%;
+    height: 500px;
+  }
+ 
+
+
+.newpost-button {
+    background-color: #3f61a5;
+    color: whitesmoke;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    float: right;
+  
+    
+}

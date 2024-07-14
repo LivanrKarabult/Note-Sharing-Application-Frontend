@@ -1,0 +1,139 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #B0C4DE;
+    color: #333;
+    line-height: 1.6;
+    overflow-y: auto;
+    margin: 0; 
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .profileSection {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  .profileSection h2{
+    font-weight: bold;
+    font-size: 25px;
+  }
+  
+  .profilePicture {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+    margin: auto;
+  }
+  
+  .profileInfo {
+    margin-bottom: 15px;
+  }
+  
+  .profileInfo p {
+    margin: 10px 0;
+  }
+  
+  .editProfileButton {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+  }
+  
+  .editProfileButton:hover {
+    background-color: #0056b3;
+  }
+  
+  .postsSection {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+  }
+  
+  .post {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .post img {
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .post p {
+    margin: 5px 0;
+  }
+  .postsSection{
+    
+    border-radius: 10px;
+  }
+  .like-icon,
+.comment-icon {
+    font-size: 24px;
+    margin-right: 10px;
+}
+  
+.likes,
+.comments {
+    margin-right: 20px;
+    color: #777;
+}
+.userName{
+  padding: 10px;
+  font-weight: bold; 
+  float: left;
+  margin-right: 10px;
+  clear: both;
+  align-items: baseline;
+}
+
+.lessonName {
+  padding: 5px;
+  border-bottom: 1px solid #ddd;
+  font-style: italic; 
+  float:left;
+  clear: both;
+  align-items: baseline;
+
+}
+
+.post-image img {
+  width: 100%;
+  height: auto;
+}
+.header {
+  padding: 10px;
+  position: relative;
+  
+
+}
+.text{
+  font-weight: bold;
+  font-size:x-large;
+  padding-bottom: 20px;
+}
+
+.post-footer {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+.description {
+  margin-top: 5px;
+  margin-left: 5px;
+  padding: 10px;
+  
+}

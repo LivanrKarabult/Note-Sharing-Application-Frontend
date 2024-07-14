@@ -1,0 +1,88 @@
+body {
+    
+    font-family: Arial, sans-serif;
+    background-color: #B0C4DE;
+    color: #333;
+    line-height: 1.6;
+    overflow-y: auto;
+}
+
+.form-container {
+    
+    max-width: 500px;
+    margin: 100px auto;
+    padding: 30px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
+}
+
+.form-container h2 {
+    margin-bottom: 20px;
+    color: #3e3232;
+    margin-left: 150px;
+    
+} 
+
+.form-group {
+    margin-bottom: 25px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #555;
+}  
+
+textarea,
+  input[type="file"] ,
+  input[type="text"]{
+    width: calc(100% - 22px); /* 22px padding ve border için */
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box; /* Dikkat: Bu, padding ve border'ı içeriye alır */
+    resize: vertical; /* Yalnızca textarea için dikey yeniden boyutlandırma */
+    background-color: #f5f5f5;
+}  
+
+textarea {
+    height: 80px; /* Description kutusunun yüksekliğini artırır */
+}
+
+textarea::-webkit-scrollbar {
+    width: 5px; /* Scrollbar genişliği */
+}
+  
+textarea::-webkit-scrollbar-thumb {
+    background: linear-gradient(to bottom,violet,indigo,blue,green,yellow,orange,red); /* Scrollbar renk */
+    border-radius: 5px; /* Scrollbar kenar yarıçapı */
+}
+  
+textarea::-webkit-scrollbar-track {
+    background-color: #f9f9f9; /* Scrollbar track (arkaplan) rengi */
+}
+
+input[type="file"] {
+    overflow: hidden;
+}
+
+button[type="submit"] {
+    background-color: #3f61a5;
+    margin-top: 20px;
+    display:flex;
+    color: white;
+    padding: 12px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}  
+  
+button[type="submit"]:hover {
+    background-color: #101828;
+}

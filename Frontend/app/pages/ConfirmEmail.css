@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #B0C4DE;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.confirm-email-page {
+    background-color: #ffffff;
+    padding: 40px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+  }
+  
+  .confirm-email-page h1 {
+    margin-bottom: 30px; 
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .confirm-email-page form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    gap: 15px;
+  }
+  
+  .confirm-email-page label {
+    font-weight: bold;
+  }
+  
+  .confirm-email-page input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .confirm-email-page button {
+    background: #072f9e;
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .confirm-email-page button:hover {
+    background-color: #06143b;
+  }
+  
+  .confirm-email-page p {
+    margin-top: 20px;
+    color: green;
+    font-weight: bold;
+  }
+  .form-group {
+    margin-bottom: 30px; 
+    text-align: left;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #333; 
+}
+
+.form-group input[type="text"] {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 16px;
+  background-color: #eaeaea;
+}
+  

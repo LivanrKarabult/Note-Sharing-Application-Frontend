@@ -1,0 +1,210 @@
+
+body {
+    
+    font-family: Arial, sans-serif;
+    background-color: #B0C4DE;
+    color: #333;
+    line-height: 1.6;
+    overflow-y: auto;
+}
+.container{
+    
+    width: 800px;
+    height:900px;
+    margin: auto;
+    margin-top: 75px;
+    border-radius: 12px;
+    background-color: #80a7d9;
+    padding: 20px;
+    
+}
+.header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:9px;
+    width: 100%;
+    margin-top: 30px;
+
+}
+.profile-info {
+    display: flex;
+    align-items: center;
+    font-size: large;
+    font-weight: bold;
+}
+
+.profile-img {
+    width: 50px;
+    height: 50px; 
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.submit-container{
+    display: flex;
+    gap:30px;
+    margin: 60px auto ;
+
+}
+
+.inputs{
+    margin-top: 55px;
+    display: flex;
+    flex-direction: column;
+    gap:25px;
+
+}
+.input{
+    display: flex;
+    align-items: center;
+    margin: auto;
+    width:480px;
+    height: 65px;
+    background: #eaeaea;
+    border-radius: 6px;
+    padding-left: 20px;
+}
+.input img {
+    width: 30px; /* İkon boyutunu istediğiniz gibi ayarlayın */
+    height: 30px; /* İkon boyutunu istediğiniz gibi ayarlayın */
+    margin-right: 10px;
+}
+
+.input input,.input select {
+    flex: 1;
+    height: 30px;
+    /*width: 400px;*/
+    width: calc(100% - 120px);
+    background: transparent;
+    border:none;
+    outline: none;
+    color: #797979;
+    font-size: 19px;
+
+}
+#lesson-select {
+    height: 100px;
+}
+
+.change-image{
+    padding-left: 150px;
+    margin-top: 27px;
+    color:#130362;
+    font-size: 18px; 
+    
+}
+.buttons {
+    display: flex;
+    gap: 5px;
+    margin-top: 20px;
+}
+
+.buttons button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.comment-button {
+    background-color: #abbbda;
+    color: #101828;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.like-button {
+    background-color: #abbbda;
+    color: #101828;
+    display: flex;
+    margin: auto;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    
+}
+.newpost-button {
+    background-color: #3f61a5;
+    color: whitesmoke;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    
+}
+button[type="submit"] {
+    background-color: #3f61a5;
+    margin-top: 20px;
+    margin:auto;
+    color: white;
+    padding: 12px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+} 
+button[type="submit"]:hover {
+    background-color: #101828;
+}
+
+.dropdown {
+    position: relative;
+    width: 100%;
+    max-width: 300px;
+}
+
+.dropdown-select {
+    padding: 5px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    background-color: #fff;
+}
+
+.dropdown-menu {
+    position: absolute;
+    width: 100%;
+    max-width: 300px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    z-index: 1000;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    margin-top: 2px;
+}
+
+.dropdown-item {
+    padding: 5px;
+    cursor: pointer;
+}
+
+.dropdown-item:hover {
+    background-color: #f1f1f1;
+}
+.date-input-container {
+    position: relative;
+    width: 100%;
+}
+
+.placeholder-date {
+    color: transparent;
+}
+
+.date-placeholder {
+    position: absolute;
+    left: 40px;
+    top: 50%;
+    transform: translateY(-50%);
+    pointer-events: none;
+    color: #888;
+    z-index: 1;
+}
